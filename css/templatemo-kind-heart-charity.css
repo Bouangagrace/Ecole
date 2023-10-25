@@ -1308,7 +1308,7 @@ blockquote::before {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-color: var(--site-footer-bg-color);
+  background-color:blueviolet;
   padding-top: 70px;
 }
 
