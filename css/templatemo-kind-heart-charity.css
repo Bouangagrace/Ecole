@@ -271,10 +271,6 @@ p{
   margin-bottom: 10px;
 }
 
-.text-slider{
-  
-}
-
 
 /*---------------------------------------
   CUSTOM TEXT BOX               
@@ -371,7 +367,7 @@ p{
 
 .navbar-brand {
   color: var(--primary-color);
-  font-size: 18px;
+  font-size: 10px;
   font-weight: var(--font-weight-bold);
 }
 
@@ -383,7 +379,7 @@ p{
 .navbar-brand small {
   color: var(--secondary-color);
   display: block;
-  font-size: 12px;
+  font-size: 7px;
   line-height: normal;
   text-transform: uppercase;
 }
@@ -588,7 +584,7 @@ p{
 
 #hero-slide .carousel-caption {
   color: var(--secondary-color);
-   top: 25%;
+   top: 30%;
   /* bottom: 52px;
   right: 250px;
   left: auto; */
@@ -599,8 +595,9 @@ p{
 }
 
 .text-slider{
-  font-size: 50px;
-  color: #fff;
+  font-size: 30px;
+  color: #171616;
+  font-weight: 700;
 }
 
 .carousel-image {
@@ -739,6 +736,7 @@ p{
 
 .image-icones{
   width: 40px;
+  height: 30px;
 }
 
 .esp{
