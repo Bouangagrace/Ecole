@@ -50,13 +50,13 @@ https://templatemo.com/tm-581-kind-heart-charity
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #000000;
-  --secondary-color:              #ee5ae9;
+  --secondary-color:              #C664E0;
   --section-bg-color:             #f0f8ff;
-  --site-footer-bg-color:         #44525d;
+  --site-footer-bg-color:         #F19F8A;
   --custom-btn-bg-color:          #597081;
   --custom-btn-bg-hover-color:    #5bc1ac;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --p-color:                      #000;
   --border-color:                 #e9eaeb;
 
   --body-font-family:             'Metropolis', sans-serif;
@@ -87,6 +87,7 @@ body {
 }
 
 
+
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
@@ -96,7 +97,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color);
+  color: #000;
 }
 
 h1,
@@ -116,7 +117,7 @@ h1 {
 }
 
 h2 {
-  color: var(--secondary-color);
+  color: #000;
   font-size: var(--h2-font-size);
   letter-spacing: -2px;
 }
@@ -318,7 +319,7 @@ p{
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: var(--secondary-color);
+  background: #F19F8A;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -839,7 +840,7 @@ p{
 }
 
 .news-category-block {
-  background: var(--secondary-color);
+  background: #F19F8A;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -1257,6 +1258,9 @@ blockquote::before {
   background: var(--custom-btn-bg-hover-color);
   border-color: transparent;
 }
+h2{
+  color: #000;
+}
 
 
 /*---------------------------------------
@@ -1308,7 +1312,7 @@ blockquote::before {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-color:blueviolet;
+  background-color:#0000;
   padding-top: 70px;
 }
 
